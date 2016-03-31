@@ -1,0 +1,6 @@
+framework module WhdeSqlite {
+  umbrella header "WhdeSqlite.h"
+
+  export *
+  module * { export * }
+}
