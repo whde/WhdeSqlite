@@ -1,0 +1,6 @@
+{
+  "name": "Whdesqlite",
+  "tagline": "根据SQL语句操作数据库, 同时封装查询",
+  "body": "# WhdeSqlite\r\n根据SQL语句操作数据库, 同时封装查询\r\n```objective-c\r\n#import <WhdeSqlite/WhdeSqlite.h>\r\n```\r\n- 查询\r\n```objective-c\r\n // SQL-1. province like '%广东%' and city like '%深圳%' and district like '%南山%'\r\n NSString *where = [NSString stringWithFormat:\r\n                   @\"province like '%%%@%%' and city like '%%%@%%' and district like '%%%@%%'\",\r\n                   province, city, district];\r\nNSDictionary *dic = [[CDataBaseOperate instance] getData:DATABASE_POSTCODE\r\n                                               FromTable:DATABASE_TABLE\r\n                                                   where:where\r\n                                                dataType:DICTIONARY];\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
