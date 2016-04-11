@@ -351,6 +351,7 @@
 				F804813A1CACC34400E64488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F804813C1CACC3A100E64488 /* Build configuration list for PBXAggregateTarget "WhdeSqliteTarget" */ = {
 			isa = XCConfigurationList;
@@ -359,6 +360,7 @@
 				F804813E1CACC3A100E64488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
